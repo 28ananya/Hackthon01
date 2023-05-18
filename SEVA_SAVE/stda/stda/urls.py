@@ -25,7 +25,7 @@ from signupa.views import signupaaction
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('signup/',signaction),
-    path('login/',loginaction),
+    path('',loginaction),
  path('login/home.html',homeaction),
  path('login/login_page.html',loginaaction),
  path('login/signup_page.html',signupaaction)
